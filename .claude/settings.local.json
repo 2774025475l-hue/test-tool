@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm config *)",
+      "Bash(grep -n -E 'proxy|PROXY|npm_mirror|registry|npm config' ~/.zshrc 2>/dev/null || echo \"No proxy-related lines in .zshrc\")",
+      "Read(//Users/lsj/**)",
+      "Bash(ls /Users/lsj/vscodeproj/test-tool/venv/bin/python3 2>/dev/null && echo \"venv exists\" || echo \"❌ venv NOT found\")",
+      "Read(//Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/bin/**)",
+      "Bash(sed -i '' '/proxy=/d' /Users/lsj/vscodeproj/test-tool/.npmrc)",
+      "Bash(sed -i '' '/https-proxy=/d' /Users/lsj/vscodeproj/test-tool/.npmrc)",
+      "Bash(unset http_proxy https_proxy HTTP_PROXY HTTPS_PROXY all_proxy no_proxy)",
+      "Bash(npm cache *)",
+      "Bash(rm -rf /Users/lsj/vscodeproj/test-tool/.venv /Users/lsj/vscodeproj/test-tool/venv && echo \"✅ 旧 venv 和 Windows .venv 已删除\")",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(git reset *)",
+      "Bash(git add *)",
+      "Bash(git commit -m 'fix: remove invalid proxy config, update lock file *)",
+      "Bash(gh auth *)",
+      "Bash(brew install *)",
+      "mcp__plugin_oh-my-claudecode_t__lsp_diagnostics",
+      "Bash(npx tsc *)",
+      "Bash(npx vitest *)",
+      "Bash(xargs kill)"
+    ],
+    "additionalDirectories": [
+      "/Users/lsj/vscodeproj/test-tool/.venv"
+    ]
+  }
+}

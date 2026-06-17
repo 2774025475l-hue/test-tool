@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "entries": {
+    "79a93d4a2f8f50b95f852280616242fee1855dc99a3c75211917f55e72e95fae": {
+      "last_emitted_at_ms": 1781711129057,
+      "message": "Use parallel execution for independent tasks. Use run_in_background for long operations (npm install, builds, tests)."
+    },
+    "466399dafa2d20f60587180bad0a07358eb7f2bce724df0ff682f038ad33f5ad": {
+      "last_emitted_at_ms": 1781710249701,
+      "message": "Read multiple files in parallel when possible for faster analysis."
+    },
+    "445ed27a3872b681d98190bae61ccb84954e1bc4e140df5370be958dee776b3a": {
+      "last_emitted_at_ms": 1781710245216,
+      "message": "Verify changes work after editing. Test functionality before marking complete."
+    },
+    "4f7a67fba0a8473e9883d9e8dffbb2d72e00a4a1eeb4fa80cb14213b167dc90f": {
+      "last_emitted_at_ms": 1781710148287,
+      "message": "Mark todos in_progress BEFORE starting, completed IMMEDIATELY after finishing."
+    },
+    "8feabf6f49a81c0b14d2fb458d03049e1fc6e6253046c8fb065ba09fec756ba0": {
+      "last_emitted_at_ms": 1781710055604,
+      "message": "[SLOP WARNING] Detected fallback/workaround language in this tool input. Do not make potential slop: avoid ad-hoc fallback layers, workaround shims, or environment-specific patches unless explicitly justified. For architecture concerns, consult the architect for a concrete design first. If this seems environment-specific, ask the user to confirm constraints before proceeding.\n\nSpawning agent: oh-my-claudecode:executor (inherit) | Task: Create workbench components"
+    },
+    "42d193c8cceee354e28d9e2c3a34032376b9f39a6ba239e3ad81cb90abad5d8c": {
+      "last_emitted_at_ms": 1781710042335,
+      "message": "Spawning agent: oh-my-claudecode:executor (inherit) | Task: Create UI components from page.tsx"
+    },
+    "808cb04420bcb368ab4716038ddd950b51198d0402b6cf8e965d66ca42ebccbe": {
+      "last_emitted_at_ms": 1781709991546,
+      "message": "[SLOP WARNING] Detected fallback/workaround language in this tool input. Do not make potential slop: avoid ad-hoc fallback layers, workaround shims, or environment-specific patches unless explicitly justified. For architecture concerns, consult the architect for a concrete design first. If this seems environment-specific, ask the user to confirm constraints before proceeding.\n\nVerify changes work after editing. Test functionality before marking complete."
+    },
+    "14c1d4c07255651747fc5eb4bae8ac796dc4198d36ad154e9cb96dca8b0bfa98": {
+      "last_emitted_at_ms": 1781709482624,
+      "message": "Spawning agent: Explore (inherit) | Task: Explore test-tool codebase thoroughly"
+    }
+  },
+  "updated_at": "2026-06-17T15:45:29.057Z"
+}
